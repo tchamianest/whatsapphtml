@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 1000px;
+
+  font-family: "Montserrat", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+.container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.left-section {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  min-width: 200px;
+  width: 32%;
+  justify-content: space-between;
+}
+.top-header {
+  display: flex;
+  margin-bottom: 30px;
+  width: 30%;
+  min-width: 200px;
+  left: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  padding-top: 20px;
+}
+.right-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.right-image img {
+  margin-right: 30px;
+}
+
+.right-section {
+  margin-top: 10px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* left header with some images */
+.top-header1 {
+  display: flex;
+  width: 6%;
+  min-width: 50px;
+  height: 90%;
+  left: 0;
+  top: 80px;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+}
+.left-image1 {
+  display: flex;
+  height: 60%;
+  min-height: 70px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.letf-button-image {
+  margin-top: 20px;
+  height: 16%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.down-left {
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.left-text {
+  font-size: 15px;
+  margin-top: 10px;
+  padding-top: 0;
+  font-weight: 400;
+}
+/* ends left header with some images */
