@@ -21,6 +21,12 @@
   background-color: #eaf8ff;
 }
 
+.chat-section::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  display: none;
+}
+
 .search-box {
   margin-right: 5px;
   border-radius: 20px;
@@ -32,7 +38,7 @@
   justify-content: space-between;
   position: fixed;
   align-items: center;
-  top: 20;
+  top: 16;
   margin-bottom: 50px;
 }
 .input {

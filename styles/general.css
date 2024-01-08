@@ -33,7 +33,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   position: fixed;
-  padding-top: 20px;
+  padding-top: 0px;
 }
 .right-image {
   flex: 1;
